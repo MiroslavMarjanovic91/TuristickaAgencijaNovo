@@ -8,8 +8,8 @@
 <title>korisnicka strana</title>
 </head>
 <body>
+<!--otvara skriplete  -->
 <% User user = (User)session.getAttribute("userIzBaze");
-
 %>
 <h1>Hellooo <%=user.getUserName()%></h1>
 </body>
