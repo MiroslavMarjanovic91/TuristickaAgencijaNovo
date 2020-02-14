@@ -20,7 +20,7 @@
 	<% 
 		List<Destinacija> lista = (List<Destinacija>)request.getAttribute("listaDestinacija");
 	%>
-	
+	<!--ovo je forma-->
 	<form>
 		<select>
 			<% for( Destinacija d: lista){ %>
